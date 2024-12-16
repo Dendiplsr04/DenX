@@ -42,13 +42,3 @@ We like to keep our Markdown files as uniform as possible. So if you submit a PR
 - Code blocks should use three backticks. (```)
 - Make sure to use syntax highlighting whenever possible.
 
-# Contributors
-
-- [EdOverflow](https://github.com/EdOverflow)
-- [GerbenJavado](https://github.com/GerbenJavado)
-- [jon_bottarini](https://github.com/BlueTower)
-- [sp1d3r](https://github.com/sp1d3r)
-- [yasinS](https://github.com/yasinS)
-- [neutrinoguy](https://github.com/neutrinoguy)
-- [kuromatae](https://github.com/kuromatae)
-- [And many more ...](https://github.com/EdOverflow/bugbounty-cheatsheet/graphs/contributors)
