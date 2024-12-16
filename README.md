@@ -1,11 +1,54 @@
-Akamai Kona Bypass
+# Bug Bounty Cheat Sheet</h1>
 
-MID instead of SUBSTRINGLIKE instead of =/**/ instead of a spaceCURRENT_USER instead of CURRENT_USER() " instead of '
+| 📚 Reference                                                | 🔎 Vulnerabilities                                        | 
+|-------------------------------------------------------------|-----------------------------------------------------------| 
+| [Bug Bounty Platforms](cheatsheets/bugbountyplatforms.md)   | [XSS](cheatsheets/xss.md)                               | 
+| [Books](cheatsheets/books.md)                               | [SQLi](cheatsheets/sqli.md)                             | 
+| [Special Tools](cheatsheets/special-tools.md)               | [SSRF](cheatsheets/ssrf.md)                             | 
+| [Recon](cheatsheets/recon.md)                               | [CRLF Injection](cheatsheets/crlf.md)                   | 
+| [Practice Platforms](cheatsheets/practice-platforms.md)     | [CSV Injection](cheatsheets/csv-injection.md)           | 
+| [Bug Bounty Tips](cheatsheets/bugbountytips.md)             | [LFI](cheatsheets/lfi.md)                               | 
+|                                                             | [XXE](cheatsheets/xxe.md)                               | 
+|                                                             | [RCE](cheatsheets/rce.md)                               | 
+|                                                             | [Open Redirect](cheatsheets/open-redirect.md)           | 
+|                                                             | [Crypto](cheatsheets/crypto.md)                         | 
+|                                                             | [Template Injection](cheatsheets/template-injection.md) | 
+|                                                             | [Content Injection](cheatsheets/content-injection.md)   | 
+|                                                             | [XSLT Injection](cheatsheets/xslt.md)                   | 
 
-Final example:
+# Contributing
 
-444/**/OR/**/MID(CURRENT_USER,1,1)/**/LIKE/**/"p"/**/#
+We welcome contributions from the public.
 
-Blogs
+### Using the issue tracker 💡
 
-http://pentestmonkey.net/blog/mssql-sql-injection-cheat-sheet/http://isc.sans.edu/diary.html?storyid=9397http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/http://xd-blog.com.ar/descargas/manuales/bugs/full-mssql-injection-pwnage.htmlhttp://securityoverride.com/articles.php?article_id=1&article=The_Complete_Guide_to_SQL_Injectionshttp://websec.wordpress.com/2010/03/19/exploiting-hard-filtered-sql-injections/http://sqlzoo.net/hack/http://www.sqlteam.com/article/sql-server-versionshttp://www.krazl.com/blog/?p=3http://www.owasp.org/index.php/Testing_for_MS_Accesshttp://web.archive.org/web/20101112061524/http://seclists.org/pen-test/2003/May/0074.htmlhttp://web.archive.org/web/20080822123152/http://www.webapptest.org/ms-access-sql-injection-cheat-sheet-EN.htmlhttp://www.youtube.com/watch?v=WkHkryIoLD0http://layerone.info/archives/2009/Joe%20McCray%20-%20Advanced%20SQL%20Injection%20-%20L1%202009.pdfhttp://vimeo.com/3418947http://sla.ckers.org/forum/read.php?24,33903http://websec.files.wordpress.com/2010/11/sqli2.pdfhttp://old.justinshattuck.com/2007/01/18/mysql-injection-cheat-sheet/http://ha.ckers.org/sqlinjection/http://lab.mediaservice.net/notes_more.php?id=MSSQL
+The issue tracker is the preferred channel for bug reports and features requests. [![GitHub issues](https://img.shields.io/github/issues/EdOverflow/bugbounty-cheatsheet.svg?style=flat-square)](https://github.com/EdOverflow/bugbounty-cheatsheet/issues)
+
+### Issues and labels 🏷
+
+Our bug tracker utilizes several labels to help organize and identify issues.
+
+### Guidelines for bug reports 🐛
+
+Use the GitHub issue search — check if the issue has already been reported.
+
+# Style Guide
+
+We like to keep our Markdown files as uniform as possible. So if you submit a PR, make sure to follow this style guide (we will not be angry if you do not).
+
+- Cheat sheet titles should start with `##`.
+- Subheadings should be made bold. (`**Subheading**`)
+- Add newlines after subheadings and code blocks.
+- Code blocks should use three backticks. (```)
+- Make sure to use syntax highlighting whenever possible.
+
+# Contributors
+
+- [EdOverflow](https://github.com/EdOverflow)
+- [GerbenJavado](https://github.com/GerbenJavado)
+- [jon_bottarini](https://github.com/BlueTower)
+- [sp1d3r](https://github.com/sp1d3r)
+- [yasinS](https://github.com/yasinS)
+- [neutrinoguy](https://github.com/neutrinoguy)
+- [kuromatae](https://github.com/kuromatae)
+- [And many more ...](https://github.com/EdOverflow/bugbounty-cheatsheet/graphs/contributors)
